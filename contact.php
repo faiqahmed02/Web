@@ -1,6 +1,8 @@
 <?php 
 include 'header.php';
 ?>
+
+
 <section class="breadcrumb-area banner-6">
 	<div class="text-block">
 		<div class="container">
@@ -33,20 +35,20 @@ include 'header.php';
 				</div>
 				<div class="form-block">
 					<!-- <form data-toggle="validator" class="shake"> -->
-						<form id="contactForm" action="https://www.Websodesignwebsolution.com/mail.php" class="jform validate shake" method="POST">
+						<form id="contactForm" action="mail2.php" class="jform validate shake" method="POST">
 						<div class="row">
 							<div class="form-group col-sm-6">
-								<input type="text" id="name" placeholder="Enter name" required data-error="Please fill Out">
+								<input type="text" name="name" id="name" placeholder="Enter name" required data-error="Please fill Out">
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="form-group col-sm-6">
-								<input type="email" id="email" placeholder="Enter email" required>
+								<input name="email" type="email" id="email" placeholder="Enter email" required>
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="form-group col-sm-6">
-								<input type="text" id="mobile" placeholder="Enter mobile" required data-error="Please fill Out">
+								<input name="phone" type="text" id="mobile" placeholder="Enter mobile" required data-error="Please fill Out">
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="form-group col-sm-6">
@@ -62,7 +64,7 @@ include 'header.php';
 							</div>
 						</div>
 						<div class="form-group">
-							<textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
+							<textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
 							<div class="help-block with-errors"></div>
 						</div>
 						<button type="submit" id="form-submit" class="btn lnk btn-main bg-btn">Submit <span class="circle"></span>Submit</button>
@@ -70,26 +72,26 @@ include 'header.php';
                 <input type="hidden" id="" name="lead_org_price" value="" />
                 <input type="hidden" name="send" value="1" />
                 
-                <input type="hidden" name="lb_source" value="" />
+                <!-- <input type="hidden" name="lb_source" value="" />
                 <input type="hidden" name="lb_source_cat" value="" />
                 <input type="hidden" name="lb_source_nam" value="" />
                 <input type="hidden" name="lb_source_ema" value="" />
                 <input type="hidden" name="lb_source_con" value="" />
                 <input type="hidden" name="lb_source_pho" value="" />
-                <input type="hidden" name="lb_source_off" value="" />
+                <input type="hidden" name="lb_source_off" value="" /> -->
                 
                 <input type="hidden" name="fullpageurl" value="" />
                 <input type="hidden" name="pageurl" value="" />
                 
-                <input type="hidden" name="ip2loc_ip" value="" />
+                <!-- <input type="hidden" name="ip2loc_ip" value="" />
                 <input type="hidden" name="ip2loc_isp" value="" />
                 <input type="hidden" name="ip2loc_org" value="" />
                 <input type="hidden" name="ip2loc_country" value="" />
-                <input type="hidden" name="ip2loc_region" value="" />
+                <input type="hidden" name="ip2loc_region" value="" /> -->
                 <input type="hidden" name="service_id" value="5669" class="service_id">
 					</form>
 				</div>
-			</div>
+</div>
 			<div class="col-lg-5 v-center">
 				<div class="contact-details">
 					<div class="contact-card wow fadeIn" data-wow-delay=".2s">
@@ -106,7 +108,7 @@ include 'header.php';
 							<span><i class="fas fa-envelope"></i> Email:</span>
 							<div class="info-body">
 								<p>Our support team will get back to in 24-h during standard business hours.</p>
-								<a href="cdn-cgi/l/email-protection.html#2a595f5a5a45585e6a4846435e505d4f485945465f5e43454404494547"><span class="__cf_email__" data-cfemail=""><span class="__cf_email__" data-cfemail="4e3d3b3e3e213c3a0e2c22273a34392b2c3d21223b3a272120602d2123">[email&#160;protected]</span></span></a>
+								<a href="mailto:support@websodesign.com"><span class="__cf_email__">support@websodesign.com</span></span></a>
 							</div>
 						</div>
 					</div>

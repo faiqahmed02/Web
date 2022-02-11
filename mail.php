@@ -1,6 +1,3 @@
-<?php 
-include 'header.php';
-?>
 
 <?php 
 if(isset($_POST['submit'])){
@@ -23,10 +20,7 @@ if(isset($_POST['submit'])){
     echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
     }
-?>
 
-<?php
-  
   // servername => localhost
   // username => root
   // password => empty
@@ -51,22 +45,49 @@ if(isset($_POST['submit'])){
       '$email','$phone','$msg')";
     
   if(mysqli_query($conn, $sql)){
-      echo "<h3>data stored in a database successfully." 
-          . " Please browse your localhost php my admin" 
-          . " to view the updated data</h3>"; 
+    //   echo "<h3>data stored in a database successfully." 
+    //       . " Please browse your localhost php my admin" 
+    //       . " to view the updated data</h3>"; 
 
-      echo nl2br("\n$name\n $email\n "
-          . "$phone\n $msg\n");
+    //   echo nl2br("\n$name\n $email\n "
+    //       . "$phone\n $msg\n");
   } else{
-      echo "ERROR: Hush! Sorry $sql. " 
-          . mysqli_error($conn);
+    //   echo "ERROR: Hush! Sorry $sql. " 
+    //       . mysqli_error($conn);
   }
     
   // Close connection
   mysqli_close($conn);
   ?>
 
+
+<?php 
+include 'header.php';
+?>
+
+
 <body>
+<section class="breadcrumb-area banner-6">
+	<div class="text-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 v-center">
+					<div class="bread-inner">
+						<div class="bread-menu wow fadeInUp" data-wow-delay=".2s">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="#">Thank You</a></li>
+							</ul>
+						</div>
+						<div class="bread-title wow fadeInUp" data-wow-delay=".5s">
+							<h2>Thank You</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
     <h1>Thank You</h1>
     <p>Here is the information you have submitted:</p>
     <ol>
