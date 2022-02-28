@@ -11,7 +11,7 @@
   $lead_org = $_POST['lead_org_price'];
  
   $email_from = 'support@websodesign.com';
-  $to = "developertwo02@gmail.com";
+  $to = "sherwin.shakir@gmail.com, developertwo02@gmail.com";
 
   $email_subject = "New Lead Websodesign";
 

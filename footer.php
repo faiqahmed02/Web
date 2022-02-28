@@ -15,17 +15,22 @@
                 <ul class="footer-address-list ftr-details">
                     <li>
                         <span><i class="fas fa-envelope"></i></span>
-                        <p>Email <span> <a href="mailto:support@websodesign.com"><span class="__cf_email__" data-cfemail=""><span class="__cf_email__" >support@websodesign.com</span></span></a></span></p>
+                        <p>Email <span> <a href="mailto:<?php echo $contactemailaddress ?>"><span class="__cf_email__" data-cfemail=""><span class="__cf_email__" ><?php echo $contactemailaddress ?></span></span></a></span></p>
                     </li>
                     <li>
                         <span><i class="fas fa-phone-alt"></i></span>
-                        <p>Phone <span> <a href="tel:+1-347-704-2880">+1-347-704-2880</a></span></p>
+                        <p>Phone <span> <a href="tel:<?php echo $contactphonenumber ?>"><?php echo $contactphonenumber ?></a></span></p>
+                        </li>
+                              <li>
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <p>Main Address <span>157 Church Street 19th Floor, New Haven, CT 06510</span></p>
+                        </li>
                         <li>
                             <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
                             <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
                             <a class="social-link-st-ftr" target="_blank" href="#"><img src="images/ftr-icon/trustpilot-icon.png"></a>
                             <!-- <a class="social-link-st-ftr" target="_blank" href="https://www.bark.com/en/gb/company/Websodesign-web-solution/ZBwQA/"><img src="images/ftr-icon/bark-icon.png"></a> -->
-                            <a class="social-link-st-ftr" target="_blank" href="#"><img src="images/ftr-icon/review-icon.png"></a>
+                            <a class="social-link-st-ftr" target="_blank" href="https://www.bark.com/en/us/company/webso-design/1J1AK/"><img src="images/ftr-icon/review-icon.png"></a>
                         </li>
 
 
@@ -76,7 +81,7 @@
                 <div class="col-lg-12">
                     
                     <div class="footer-">
-                        <p>Copyright &copy; 2020-21 Websodesign Web Solution. All rights reserved.</p>
+                        <p>Copyright &copy; 2020-22 Websodesign Web Solution. All rights reserved.</p>
                     </div>
                 </div>
             </div>

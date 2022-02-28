@@ -1,9 +1,14 @@
+<?php $contactphonenumber = "551 278 0770";
+      $contactemailaddress = "support@websodesign.com";    
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 		<meta charset="utf-8" />
-		<title> Custom Website Design by Professional Web Design Company in USA – WebSoDesign </title>
+		<title> <?php echo $title ?></title>
 		<meta name="description"  content="  Websodesign Web Solution offers Professional Website Design and Development, Logo Design, eCommerce Web Design and Web Portal Development Services in USA.">
 		<meta name="robots" content="index, follow" />
 		<link rel="canonical" href="index.php" />
@@ -21,7 +26,7 @@
 		<link href="images/favicon.png" rel="icon">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/plugin.min.css" rel="stylesheet">
-		<link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
 		<link href="css/jquery.fancybox.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
@@ -42,6 +47,19 @@
 		  }
 		}
 		</script>
+		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6176cfe7f7c0440a591fe2ce/1fis1o8k4';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 
 </head>
 	<body>
@@ -54,7 +72,7 @@
 		<header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
 			<div class="container-fluid m-pad">
 				<div class="menu-header">
-					<div class="dsk-logo"><a class="nav-brand" href="index.php">
+					<div class="dsk-logo"><a class="nav-brand" href="/">
 						<img loading="lazy" src="images/white-logo.png" alt="Logo" class="mega-white-logo" />
 						<img loading="lazy" src="images/logo.png" alt="Logo" class="mega-darks-logo" />
 					</a></div>
@@ -77,9 +95,9 @@
 									<div class="inquiry-card-nn">
 										<div class="title-inq-c">FOR SALES DEPARTMENT</div>
 										<ul>
-											<li class="mb0"><img loading="lazy" src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:+1-347-704-2880 ">+1-347-704-2880 </a></li>
+											<li class="mb0"><img loading="lazy" src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:<?php echo $contactphonenumber ?> "><?php echo $contactphonenumber ?> </a></li>
 											
-											<li><i class="fas fa-envelope"></i><a href="cdn-cgi/l/email-protection.php#91e2e4e1e1fee3e5d1f3fdf8e5ebe6f4f3e2fefde4e5f8feffbff2fefc"><span class="__cf_email__"><span class="__cf_email__" data-cfemail="e4979194948b9690a486888d909e938186978b8891908d8b8aca878b89">[email&#160;protected]</span></span></a></li>
+											<li><i class="fas fa-envelope"></i><a href="mailto:<?php echo $contactemailaddress ?>"><span class="__cf_email__"><span class="__cf_email__"><?php echo $contactemailaddress ?></span></span></a></li>
 											<li><a href="javascript:;" class="btn-br bg-btn3 btshad-b2 lnk popup_open" onclick="order_now_value(this)" name="for $244">Request A Quote <span class="circle"></span></a> </li>
 										</ul>
 										</div>
@@ -99,9 +117,9 @@
 									<div class="inquiry-card-nn">
 										<div class="title-inq-c">FOR SALES DEPARTMENT</div>
 										<ul>
-											<li class="mb0"><img loading="lazy" src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:+1-347-704-2880 ">+1-347-704-2880 </a></li>
+											<li class="mb0"><img loading="lazy" src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:<?php echo $contactphonenumber ?> "><?php echo $contactphonenumber ?> </a></li>
 											
-											<li><i class="fas fa-envelope"></i><a href="cdn-cgi/l/email-protection.php#8ffcfaffffe0fdfbcfede3e6fbf5f8eaedfce0e3fafbe6e0e1a1ece0e2"><span class="__cf_email__"><span class="__cf_email__" data-cfemail="55262025253a27211537393c212f223037263a3920213c3a3b7b363a38">[email&#160;protected]</span></span></a></li>
+											<li><i class="fas fa-envelope"></i><a href="<?php echo $contactemailaddress ?>"><span class="__cf_email__"><span class="__cf_email__"><?php echo $contactemailaddress ?></span></span></a></li>
 											<li><a href="javascript:;" class="btn-br bg-btn3 btshad-b2 lnk popup_open" onclick="order_now_value(this)" name="for $244">Request A Quote <span class="circle"></span></a> </li>
 										</ul>
 										</div>
@@ -126,7 +144,7 @@
 					</ul>
 					<ul class="bottom-nav">
 						<li class="prb">
-							<a href="tel:+1-347-704-2880">
+							<a href="tel:<?php echo $contactphonenumber ?>">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
 									<path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
 										c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
@@ -136,7 +154,7 @@
 								</a>
 							</li>
 							<li class="prb">
-								<a href="cdn-cgi/l/email-protection.php#75060005051a07013517191c010f021017061a1900011c1a1b5b161a18">
+								<a href="<?php echo $contactemailaddress ?>">
 									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" /><path d="M0 0h24v24H0z" fill="none" /></svg>
 								</a>
 							</li>

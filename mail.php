@@ -1,17 +1,19 @@
 
 <?php 
-if(isset($_POST['submit'])){
-    $to = "developertwo02@gmail.com"; // this is your Email address
+    $to = "sherwin.shakir@gmail.com, developertwo02@gmail.com"; // this is your Email address
     $from = $_POST['em']; // this is the sender's Email address
     $name = $_POST['cn'];
     $email = $_POST['em'];
     $phone = $_POST['pn'];
     $msg = $_POST['msg'];
     // $last_name = $_POST['last_name'];
-    $subject = "Form submission Lead From New York Design";
+    $subject = "Form submission Lead From Web So Design";
     $subject2 = "Copy of your form submission";
-    $message = $name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
-    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+    $message = "Name". " ". $name  . "\n" .
+    "Email" . " " . $email . "\n" . 
+        "Phone Number". " " .$phone. "\n".
+        "message" . " " . $msg. "\n".
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['msg'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
@@ -19,13 +21,12 @@ if(isset($_POST['submit'])){
     mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
     echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
     // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
-
+   
   // servername => localhost
   // username => root
   // password => empty
   // database name => staff
-  $conn = mysqli_connect("localhost", "root", "", "newyorkdesignhub");
+  $conn = mysqli_connect("localhost", "websodes_websolead", "5jrry33gHkNh9PP", "websodes_websolead");
     
   // Check connection
   if($conn === false){
@@ -81,6 +82,13 @@ include 'header.php';
 						</div>
 						<div class="bread-title wow fadeInUp" data-wow-delay=".5s">
 							<h2>Thank You</h2>
+							 <p>Here is the information you have submitted:</p>
+    <ol style="list-style: none;">
+ <li><em>Name:</em> <?php echo $_POST["cn"]?></li>
+        <li><em>Email:</em> <?php echo $_POST["em"]?></li>
+        <li><em>Subject:</em> <?php echo $_POST["pn"]?></li>
+        <li><em>Message:</em> <?php echo $_POST["msg"]?></li>
+    </ol>
 						</div>
 					</div>
 				</div>
@@ -88,14 +96,7 @@ include 'header.php';
 		</div>
 	</div>
 </section>
-    <h1>Thank You</h1>
-    <p>Here is the information you have submitted:</p>
-    <ol>
-        <li><em>Name:</em> <?php echo $_POST["cn"]?></li>
-        <li><em>Email:</em> <?php echo $_POST["em"]?></li>
-        <li><em>Subject:</em> <?php echo $_POST["pn"]?></li>
-        <li><em>Message:</em> <?php echo $_POST["msg"]?></li>
-    </ol>
+
 </body>
 
 <?php 

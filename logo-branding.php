@@ -1,169 +1,11 @@
+<?php $title = " Custom Logo Design by Professional Web Design Company in USA – WebSoDesign " ?>
 
 
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-	
-<!-- Mirrored from www.Websodesignwebsolution.com/logo-branding.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Feb 2022 22:40:47 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-		<meta charset="utf-8" />
-		<title> Custom Logo Design Services by Professional Logo Design Company in USA – Websodesign Web Solution </title>
-		<meta name="description"  content="  Websodesign Web Solution offers Logo Design Services by Award Winning Experts Logo Designers in USA with Affordable Logo design and Branding Packages in USA.">
-		
-		<meta name="robots" content="index, follow" />
-		<link rel="canonical" href="index.html" />
-		<meta name="google-site-verification" content="zl6CSrJFsJiGjzAnuLcxkJej_mN_oxO5DrY5GTaayac" /> 
-		<meta name="keywords" content="Creative Agency, Marketing Agency">
-		<meta name="author" content="rajesh-doot">
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content=" " />
-		<meta property="og:description" content="" />
-		<meta property="og:url" content=" " />
-		<meta property="og:site_name" content=" " />
+<?php 
+include 'header.php';
+?>
 
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="theme-color" content="#2e2a8f">
-		<link href="images/favicon.png" rel="icon">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/plugin.min.css" rel="stylesheet">
-		<link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
-		<link href="css/jquery.fancybox.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-		<link href="css/responsive.css" rel="stylesheet">
-		<meta name="ip2loc" content="2400:adc1:102:6300:8536:55cf:d9af:bc37">
-     	<meta name="page_url" content="www.Websodesignwebsolution.com/logo-branding.html">
-
-     	<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-198987571-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-198987571-1');
-		</script>  -->
-
-		<script type="application/ld+json">
-		{
-		  "@context": "https://schema.org/",
-		  "@type": "WebSite",
-		  "name": "Websodesign Web Solution",
-		  "url": "https://www.Websodesignwebsolution.com/",
-		  "potentialAction": {
-		    "@type": "SearchAction",
-		    "target": "{search_term_string}",
-		    "query-input": "required name=search_term_string"
-		  }
-		}
-		</script>
-
-
-
-	<script async src='cdn-cgi/challenge-platform/h/b/scripts/invisible.js'></script></head>
-	<body>
-		<div class="onloadpage" id="page_loader">
-			<div class="pre-content">
-				<div class="logo-pre"><img loading="lazy" src="images/logo.png" alt="Logo" class="img-fluid" /></div>
-				<div class="pre-text-"><span>One-Stop Solution for All Your Website Needs</span></div>
-			</div>
-		</div>
-		<header class="header-pr nav-bg-b main-header navfix fixed-top menu-white">
-			<div class="container-fluid m-pad">
-				<div class="menu-header">
-					<div class="dsk-logo"><a class="nav-brand" href="index.html">
-						<img loading="lazy" src="images/white-logo.png" alt="Logo" class="mega-white-logo" />
-						<img loading="lazy" src="images/logo.png" alt="Logo" class="mega-darks-logo" />
-					</a></div>
-					<div class="custom-nav" role="navigation">
-						<ul class="nav-list">
-							<li class=""><a href="index.html" class="menu-links">Home</a></li>
-							<li class=""><a href="logo-branding.html" class="menu-links">Logo </a></li>
-							<li class=""><a href="web-design.html" class="menu-links">Web Design</a></li>
-							<li class=""><a href="e-commerce.html" class="menu-links">Ecommerce</a></li>
-							<li class=""><a href="web-portal.html" class="menu-links">Web Portal</a></li>
-							<li class=""><a href="digital-marketing.html" class="menu-links">Digital Marketing</a></li>
-							<li class=""><a href="pricing.html" class="menu-links">Pricing </a></li>
-							<li class=""><a href="portfolio.html" class="menu-links">Portfolio </a></li>
-							<li><a href="#" class="menu-links right-bddr">&nbsp;</a>
-							<li class="contact-show"><a href="#" class="btn-round- trngl btn-br bg-btn"><i class="fas fa-phone-alt"></i></a>
-							<div class="contact-inquiry">
-								<div class="contact-info-">
-									<div class="contct-heading">Websodesign Web Solution Contacts</div>
-									
-									<div class="inquiry-card-nn">
-										<div class="title-inq-c">FOR SALES DEPARTMENT</div>
-										<ul>
-											<li class="mb0"><img loading="lazy" src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:+1-347-704-2880 ">+1-347-704-2880 </a></li>
-											
-											<li><i class="fas fa-envelope"></i><a href="cdn-cgi/l/email-protection.html#5a292f2a2a35282e1a3836332e202d3f382935362f2e33353474393537"><span class="__cf_email__"><span class="__cf_email__" data-cfemail="c8bbbdb8b8a7babc88aaa4a1bcb2bfadaabba7a4bdbca1a7a6e6aba7a5">[email&#160;protected]</span></span></a></li>
-											<li><a href="javascript:;" class="btn-br bg-btn3 btshad-b2 lnk popup_open" onclick="order_now_value(this)" name="for $244">Request A Quote <span class="circle"></span></a> </li>
-										</ul>
-										</div>
-									</div>
-								</div>
-							</li>
-							
-						</ul>
-					</div>
-					<div class="mobile-menu2">
-						<ul class="mob-nav2">
-							<li class="contact-show"><a href="#" class="btn-round- trngl btn-br bg-btn"><i class="fas fa-phone-alt"></i></a>
-							<div class="contact-inquiry">
-								<div class="contact-info-">
-									<div class="contct-heading">Websodesign Web Solution Contacts</div>
-									
-									<div class="inquiry-card-nn">
-										<div class="title-inq-c">FOR SALES DEPARTMENT</div>
-										<ul>
-											<li class="mb0"><img loading="lazy" src="images/flags/us.svg" alt="us office" class="flags-size"> <a href="tel:+1-347-704-2880 ">+1-347-704-2880 </a></li>
-											
-											<li><i class="fas fa-envelope"></i><a href="cdn-cgi/l/email-protection.html#cdbeb8bdbda2bfb98dafa1a4b9b7baa8afbea2a1b8b9a4a2a3e3aea2a0"><span class="__cf_email__"><span class="__cf_email__" data-cfemail="691a1c1919061b1d290b05001d131e0c0b1a06051c1d000607470a0604">[email&#160;protected]</span></span></a></li>
-											<li><a href="javascript:;" class="btn-br bg-btn3 btshad-b2 lnk popup_open" onclick="order_now_value(this)" name="for $244">Request A Quote <span class="circle"></span></a> </li>
-										</ul>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li class="navm-"> <a class="toggle" href="#"><span></span></a></li>
-						</ul>
-					</div>
-				</div>
-				<nav id="main-nav">
-					<ul class="first-nav">
-						<li class=""><a href="index.html" class="menu-links">Home</a></li>
-							<li class=""><a href="web-design.html" class="menu-links">Web Design</a></li>
-							<li class=""><a href="e-commerce.html" class="menu-links">Ecommerce</a></li>
-							<li class=""><a href="web-portal.html" class="menu-links">Web Portal</a></li>
-							<li class=""><a href="digital-marketing.html" class="menu-links">Digital Marketing</a></li>
-							<li class=""><a href="logo-branding.html" class="menu-links">Branding </a></li>
-							<li class=""><a href="pricing.html" class="menu-links">Pricing </a></li>
-							<li class=""><a href="portfolio.html" class="menu-links">Portfolio </a></li>
-							
-					</ul>
-					<ul class="bottom-nav">
-						<li class="prb">
-							<a href="tel:+1-347-704-2880">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384">
-									<path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.719-3.656-23.896-0.302-30.438,6.417l-43.177,32.594
-										c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
-										c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.813C13.823,0,0,13.823,0,30.813
-										C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z" />
-									</svg>
-								</a>
-							</li>
-							<li class="prb">
-								<a href="cdn-cgi/l/email-protection.html#bbc8cecbcbd4c9cffbd9d7d2cfc1ccded9c8d4d7cecfd2d4d595d8d4d6">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" /><path d="M0 0h24v24H0z" fill="none" /></svg>
-								</a>
-							</li>
-							
-						</ul>
-					</nav>
-				</div>
-			</header><section class="breadcrumb-areav2 ban-main4" >
+<section class="breadcrumb-areav2 ban-main4" >
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-7">
@@ -1595,7 +1437,7 @@
 										<h2>Let's Right People Portray Your Brand in Right Style!</h2>
 										<a href="javascript:;" class="btn-main bg-btn lnk wow fadeIn popup_open" onclick="order_now_value(this)" name="for $244" data-wow-delay="0.8s">Get Started <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
 								<a href="javascript:;" class="btn-main bg-btn2 lnk  wow fadeIn" onclick="setButtonURL();"  data-wow-delay="0.8s">Live Chat<i class="fas fa-chevron-right fa-icon fa-ani"></i><span class="circle"></span></a>
-										<p class="cta-call">Or call us now <a href="tel:+1-347-704-2880"><i class="fas fa-phone-alt"></i> +1-347-704-2880</a></p>
+										<p class="cta-call">Or call us now <a href="tel:<?php echo $contactphonenumber ?>"><i class="fas fa-phone-alt"></i> <?php echo $contactphonenumber ?></a></p>
 									</div>
 								</div>
 							</div>

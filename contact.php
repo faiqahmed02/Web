@@ -99,7 +99,7 @@ include 'header.php';
 							<span><i class="fas fa-phone-alt"></i> Phone:</span>
 							<div class="info-body">
 								<p>Assistance hours: Monday – Friday, 9 am to 5 pm</p>
-								<a href="tel:+1-347-704-2880">+1-347-704-2880</a>
+								<a href="tel:<?php echo $contactphonenumber ?>"><?php echo $contactphonenumber ?></a>
 							</div>
 						</div>
 					</div>
@@ -108,23 +108,38 @@ include 'header.php';
 							<span><i class="fas fa-envelope"></i> Email:</span>
 							<div class="info-body">
 								<p>Our support team will get back to in 24-h during standard business hours.</p>
-								<a href="mailto:support@websodesign.com"><span class="__cf_email__">support@websodesign.com</span></span></a>
+								<a href="mailto:<?php echo $contactemailaddress ?>"><span class="__cf_email__"><?php echo $contactemailaddress ?></span></span></a>
 							</div>
 						</div>
 					</div>
-					<!-- <div class="skype-card mt30 wow fadeIn" data-wow-delay=".9s">
+					<div class="contact-card mt30 wow fadeIn" data-wow-delay=".2s">
 						<div class="info-card v-center">
-							<span><i class="fab fa-skype"></i> Skype:</span>
+							<span><i class="fas fa-map-marker-alt"></i> Addresses:</span>
 							<div class="info-body">
-								<p>We Are Online: Monday – Friday, 9 am to 5 pm</p>
-								<a href="javascript:;">Websodesign Web Solution.company</a>
+							    <ul style="margin: 20px 0px;">
+							    <li style="margin: 5px 0px;">
+							        110 Plaza West, San Jose, CA 95128, USA
+							    </li>
+							    <li style="margin: 5px 0px;">
+							        One Brickell, Miami, FL 33131, USA
+							    </li>
+							    <li style="margin: 5px 0px;">
+							        12 Greenway Plaza, Houston, 77046, USA
+							    </li>
+							    <li style="margin: 5px 0px;">
+							        One Pierrepont Plaza, Brooklyn, 11201, USA
+							    </li>
+							    </ul>
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
+<section>
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1lWaRLLkaXR-yaNzxRGpf_QV5oKuXnsA2&ehbc=2E312F" width="100%" height="480"></iframe>
 </section>
 <?php 
 include 'footer.php';

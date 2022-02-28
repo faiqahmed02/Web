@@ -1,4 +1,4 @@
-
+<?php $title = " Custom Website Design by Professional Web Design Company in USA – WebSoDesign " ?>
 <?php 
 include 'header.php';
 ?>
@@ -21,7 +21,7 @@ margin-top: 10px;
                <!-- <p class="wow fadeIn" data-wow-delay="0.6s">Advance your business and its revenue with our research-based digital marketing services in the USA.</p> -->
                <p class="wow fadeIn" data-wow-delay="0.6s">Level up your business and grow the profits with design & marketing strategies that reflect your organization's goals.</p>
                <a href="javascript:;" class="btn-main bg-btn lnk wow fadeIn popup_open" onclick="order_now_value(this)" name="for $244" data-wow-delay="0.8s">Get Started <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
-               <a href="javascript:;" class="btn-main bg-btn2 lnk  wow fadeIn" onclick="setButtonURL();"  data-wow-delay="0.8s">Live Chat<i class="fas fa-chevron-right fa-icon fa-ani"></i><span class="circle"></span></a>
+               <a href="javascript:;" class="btn-main bg-btn2 lnk  wow fadeIn" onclick="javascript:void(Tawk_API.toggle())"  data-wow-delay="0.8s">Live Chat<i class="fas fa-chevron-right fa-icon fa-ani"></i><span class="circle"></span></a>
                <div class="awards-block-tt  wow fadeIn" data-wow-delay="1s"><img loading="lazy" src="images/hero/awards-logo.png" alt="awards-logo" class="img-fluid" /></div>
             </div>
          </div>
@@ -30,7 +30,7 @@ margin-top: 10px;
                <div class="hero-service-cards wow fadeInRight" data-wow-duration="2s">
                   <div class="owl-carousel service-card-prb">
                      <div class="service-slide card-bg-a" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                        <a href="logo-branding.html">
+                        <a href="logo-branding.php">
                            
                            
                            <div class="service-card-hh">
@@ -42,7 +42,7 @@ margin-top: 10px;
                         </a>
                      </div>
                      <div class="service-slide card-bg-b" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                        <a href="e-commerce.html">
+                        <a href="e-commerce.php">
                            <div class="service-card-hh">
                               <div class="image-sr-mm">
                                  <img loading="lazy" alt="custom-sport" src="images/service/head-img3.png">
@@ -53,7 +53,7 @@ margin-top: 10px;
                         </a>
                      </div>
                      <div class="service-slide card-bg-c" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                        <a href="web-design.html">
+                        <a href="web-design.php">
                            <div class="service-card-hh">
                               <div class="image-sr-mm">
                                  <img loading="lazy" alt="custom-sport" src="images/service/head-img6.png">
@@ -64,7 +64,7 @@ margin-top: 10px;
                         </a>
                      </div>
                      <div class="service-slide card-bg-d" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                        <a href="digital-marketing.html">
+                        <a href="digital-marketing.php">
                            <div class="service-card-hh">
                               <div class="image-sr-mm">
                                  <img loading="lazy" alt="custom-sport" src="images/service/head-img2.png">
@@ -75,7 +75,7 @@ margin-top: 10px;
                         </a>
                      </div>
                      <div class="service-slide card-bg-e" data-tilt data-tilt-max="5" data-tilt-speed="1000">
-                        <a href="web-portal.html">
+                        <a href="web-portal.php">
                            <div class="service-card-hh">
                               <div class="image-sr-mm">
                                  <img loading="lazy" alt="custom-sport" src="images/service/head-img5.png">
@@ -1775,7 +1775,8 @@ margin-top: 10px;
 
                   <div class="reviewer-text">
 
-                     <h4>Steve Martin</h4>
+                     <h4>
+Maria Bello</h4>
 
                      <div class="star-rate">
 
@@ -1831,7 +1832,7 @@ margin-top: 10px;
 
                   <div class="reviewer-text">
 
-                     <h4>James Dunkin</h4>
+                     <h4>Cynthia</h4>
 
                      <div class="star-rate">
 
@@ -1887,7 +1888,7 @@ margin-top: 10px;
 
                   <div class="reviewer-text">
 
-                     <h4>Leah Tyler </h4>
+                     <h4>M. Toledo </h4>
 
                      <div class="star-rate">
 
@@ -1929,7 +1930,7 @@ margin-top: 10px;
 										<h2>Let's Right People Portray Your Brand in Right Style!</h2>
 										<a href="javascript:;" class="btn-main bg-btn lnk wow fadeIn popup_open" onclick="order_now_value(this)" name="for $244" data-wow-delay="0.8s">Get Started <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
 								<a href="javascript:;" class="btn-main bg-btn2 lnk  wow fadeIn" onclick="setButtonURL();"  data-wow-delay="0.8s">Live Chat<i class="fas fa-chevron-right fa-icon fa-ani"></i><span class="circle"></span></a>
-										<p class="cta-call">Or call us now <a href="tel:+1-347-704-2880"><i class="fas fa-phone-alt"></i> +1-347-704-2880</a></p>
+										<p class="cta-call">Or call us now <a href="tel:<?php echo $contactphonenumber ?>"><i class="fas fa-phone-alt"></i> <?php echo $contactphonenumber ?></a></p>
 									</div>
 								</div>
 							</div>

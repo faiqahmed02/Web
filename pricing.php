@@ -317,7 +317,7 @@ include 'header.php';
 								<div class="row">
 									<div class="col-lg-7">
 										<div class="chatt">
-											<div class="actions"> <a class="action-no ali"> <i class="fa fa-phone-square"></i> +1-347-704-2880 </a> <a href="javascript:;" onclick="setButtonURL();" class="action-chat ali"> <i class="fa fa-wechat"></i> LIVE CHAT</a> </div>
+											<div class="actions"> <a class="action-no ali"> <i class="fa fa-phone-square"></i> <?php echo $contactphonenumber ?> </a> <a href="javascript:;" onclick="setButtonURL();" class="action-chat ali"> <i class="fa fa-wechat"></i> LIVE CHAT</a> </div>
 											<h2>For more information speak with us</h2>
 										</div>
 									</div>
@@ -716,7 +716,7 @@ include 'header.php';
 								<div class="row">
 									<div class="col-lg-7">
 										<div class="chatt">
-											<div class="actions"> <a class="action-no ali"> <i class="fa fa-phone-square"></i> +1-347-704-2880 </a> <a href="javascript:;" onclick="setButtonURL();" class="action-chat ali"> <i class="fa fa-wechat"></i> LIVE CHAT</a> </div>
+											<div class="actions"> <a class="action-no ali"> <i class="fa fa-phone-square"></i> <?php echo $contactphonenumber ?> </a> <a href="javascript:;" onclick="setButtonURL();" class="action-chat ali"> <i class="fa fa-wechat"></i> LIVE CHAT</a> </div>
 											<h2>For more information speak with us</h2>
 										</div>
 									</div>

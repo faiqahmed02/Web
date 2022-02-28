@@ -72,7 +72,7 @@ include 'header.php';
 
                   <div class="reviewer-text">
 
-                     <h4>Steve Martin</h4>
+                     <h4>Maria Bello</h4>
 
                      <div class="star-rate">
 
@@ -128,7 +128,7 @@ include 'header.php';
 
                   <div class="reviewer-text">
 
-                     <h4>James Dunkin</h4>
+                     <h4>Cynthia</h4>
 
                      <div class="star-rate">
 
@@ -184,7 +184,7 @@ include 'header.php';
 
                   <div class="reviewer-text">
 
-                     <h4>Leah Tyler </h4>
+                     <h4>M. Toledo </h4>
 
                      <div class="star-rate">
 

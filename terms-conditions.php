@@ -190,7 +190,7 @@ If the customer does not provide a feedback on a delivered project (or part of t
 										<h2>Let's Right People Portray Your Brand in Right Style!</h2>
 										<a href="javascript:;" class="btn-main bg-btn lnk wow fadeIn popup_open" onclick="order_now_value(this)" name="for $244" data-wow-delay="0.8s">Get Started <i class="fas fa-chevron-right fa-ani"></i><span class="circle"></span></a>
 								<a href="javascript:;" class="btn-main bg-btn2 lnk  wow fadeIn" onclick="setButtonURL();"  data-wow-delay="0.8s">Live Chat<i class="fas fa-chevron-right fa-icon fa-ani"></i><span class="circle"></span></a>
-										<p class="cta-call">Or call us now <a href="tel:+1-347-704-2880"><i class="fas fa-phone-alt"></i> +1-347-704-2880</a></p>
+										<p class="cta-call">Or call us now <a href="tel:<?php echo $contactphonenumber ?>"><i class="fas fa-phone-alt"></i> <?php echo $contactphonenumber ?></a></p>
 									</div>
 								</div>
 							</div>
